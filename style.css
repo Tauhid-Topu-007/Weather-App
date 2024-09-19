@@ -10,7 +10,7 @@ body{
     display: flex;
     justify-content: center;
     align-items: center;
-    
+    height: 100vh;
 }
 .card{
     width: 90%;
@@ -110,14 +110,15 @@ body{
 
 @media (max-width:660px){
     .input2{
-        max-width: 90%;
+        max-width: 100%;
     }
+
     .search button{
-        width: 30px;
-        height: 30px;
+       width: 30px;
+       height: 30px;
     }
     .search img{
-        width: 8px;
+        width: 16px
     }
     .search input{
         padding: 5px 5px;
